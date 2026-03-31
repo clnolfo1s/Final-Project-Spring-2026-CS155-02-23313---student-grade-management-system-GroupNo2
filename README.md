@@ -47,9 +47,8 @@ student-grade-management-system/
 ├── README.md
 ├── report.docx
 └── screenshots/
-GitHub Repository
-
-Insert repository link here
+GitHub Repository:
+https://github.com/clnolfo1s/Final-Project-Spring-2026-CS155-02-23313---student-grade-management-system-GroupNo2
 
 Contributions
 
