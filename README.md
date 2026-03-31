@@ -1,12 +1,15 @@
 Student Grade Management System
-Project Title
+Final-Project-Spring-2026-CS155-02-23313---student-grade-management-system-GroupNo2
 
 Student Grade Management System using Java and 1D Arrays
 
-Group Members
+Group Members:
 Member 1: Carter L Nolfo
+
 Member 2: Name
+
 Member 3: Name
+
 Member 4: Name
 
 Project Description
