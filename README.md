@@ -43,10 +43,15 @@ java StudentGradeManagementSystem
 Project Structure
 student-grade-management-system/
 │
+
 ├── StudentGradeManagementSystem.java
+
 ├── README.md
+
 ├── report.docx
+
 └── screenshots/
+
 GitHub Repository:
 https://github.com/clnolfo1s/Final-Project-Spring-2026-CS155-02-23313---student-grade-management-system-GroupNo2
 
