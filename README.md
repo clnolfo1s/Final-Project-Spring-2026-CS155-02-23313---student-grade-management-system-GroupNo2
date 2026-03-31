@@ -6,7 +6,7 @@ Student Grade Management System using Java and 1D Arrays
 Group Members:
 Member 1: Carter L Nolfo
 
-Member 2: Name
+Member 2: Devin J. McDaniel
 
 Member 3: Name
 
