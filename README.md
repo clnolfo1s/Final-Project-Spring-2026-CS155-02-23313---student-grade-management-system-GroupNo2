@@ -1,0 +1,2 @@
+# Final-Project-Spring-2026-CS155-02-23313---student-grade-management-system-GroupNo2
+In this project, your group will develop a Student Grade Management System using Java and single-dimensional arrays. The system will allow users to store, retrieve, and analyze student grades efficiently. The project must follow the given requirements and include proper documentation, code structure, and version control practices.
