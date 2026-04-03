@@ -4,6 +4,7 @@ Final-Project-Spring-2026-CS155-02-23313---student-grade-management-system-Group
 Student Grade Management System using Java and 1D Arrays
 
 Group Members:
+
 Member 1: Carter L Nolfo
 
 Member 2: Devin J. McDaniel
