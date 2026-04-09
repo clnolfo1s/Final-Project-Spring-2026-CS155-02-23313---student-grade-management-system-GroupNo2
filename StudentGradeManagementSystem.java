@@ -22,3 +22,38 @@ public class StudentGradeManagementSystem {
             System.out.println("5. Find Highest and Lowest Grades");
             System.out.println("6. Exit");
             System.out.print("Enter your choice: ");
+choice = input.nextInt();
+            input.nextLine(); // Clear buffer
+
+            switch (choice) {
+                case 1:
+                    addStudent(input);
+                    break;
+
+                case 2:
+                    displayStudents();
+                    break;
+
+                case 3:
+                    findStudentGrade(input);
+                    break;
+
+                case 4:
+                    calculateAverage();
+                    break;
+
+                case 5:
+                    findHighestAndLowest();
+                    break;
+
+                case 6:
+                    System.out.println("Exiting program. Goodbye!");
+                    break;
+
+                default:
+                    System.out.println("Invalid choice! Please select between 1 and 6.");
+            }
+
+        } while (choice != 6);
+
+        input.close();
