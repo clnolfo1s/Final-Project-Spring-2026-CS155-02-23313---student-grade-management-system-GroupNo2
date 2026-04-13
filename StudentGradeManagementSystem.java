@@ -57,3 +57,58 @@ choice = input.nextInt();
         } while (choice != 6);
 
         input.close();
+    }
+
+    // 1. Add Student and Grade
+    static void addStudent(Scanner input) {
+        if (studentCount >= MAX_STUDENTS) {
+            System.out.println("Student limit reached!");
+            return;
+        }
+
+        System.out.print("Enter student name: ");
+        String name = input.nextLine();
+
+        System.out.print("Enter student grade (0 - 100): ");
+        int grade = input.nextInt();
+        input.nextLine(); // Clear buffer
+
+        if (grade < 0 || grade > 100) {
+            System.out.println("Invalid grade! Please enter a value between 0 and 100.");
+            return;
+        }
+
+        studentNames[studentCount] = name;
+        studentGrades[studentCount] = grade;
+        studentCount++;
+
+        System.out.println("Student added successfully.");
+    }
+
+    // 2. Display All Students and Grades
+    static void displayStudents() {
+        if (studentCount == 0) {
+            System.out.println("No student records found.");
+            return;
+        }
+
+        System.out.println("\nList of Students and Grades:");
+        for (int i = 0; i < studentCount; i++) {
+            System.out.println(studentNames[i] + " - " + studentGrades[i]);
+        }
+    }
+
+    // 3. Find a Student’s Grade
+    static void findStudentGrade(Scanner input) {
+        System.out.print("Enter student name to search: ");
+        String searchName = input.nextLine();
+
+        for (int i = 0; i < studentCount; i++) {
+            if (studentNames[i].equalsIgnoreCase(searchName)) {
+                System.out.println(searchName + "'s Grade: " + studentGrades[i]);
+                return;
+            }
+        }
+
+        System.out.println("Student not found.");
+    }
