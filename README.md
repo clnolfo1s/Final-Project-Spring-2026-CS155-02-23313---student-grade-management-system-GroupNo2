@@ -9,7 +9,7 @@ Member 1: Carter L Nolfo
 
 Member 2: Devin J. McDaniel
 
-Member 3: Name
+Member 3: Aydin D. Nelson
 
 Member 4: Name
 
