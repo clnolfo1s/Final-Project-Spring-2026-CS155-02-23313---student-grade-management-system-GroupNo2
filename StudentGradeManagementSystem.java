@@ -112,3 +112,46 @@ choice = input.nextInt();
 
         System.out.println("Student not found.");
     }
+    // 4. Calculate Class Average
+    static void calculateAverage() {
+        if (studentCount == 0) {
+            System.out.println("No grades available to calculate average.");
+            return;
+        }
+
+        int total = 0;
+        for (int i = 0; i < studentCount; i++) {
+            total += studentGrades[i];
+        }
+
+        double average = (double) total / studentCount;
+        System.out.println("Class Average: " + average);
+    }
+
+    // 5. Find Highest and Lowest Grades
+    static void findHighestAndLowest() {
+        if (studentCount == 0) {
+            System.out.println("No student records available.");
+            return;
+        }
+
+        int highest = studentGrades[0];
+        int lowest = studentGrades[0];
+        int highIndex = 0;
+        int lowIndex = 0;
+
+        for (int i = 1; i < studentCount; i++) {
+            if (studentGrades[i] > highest) {
+                highest = studentGrades[i];
+                highIndex = i;
+            }
+            if (studentGrades[i] < lowest) {
+                lowest = studentGrades[i];
+                lowIndex = i;
+            }
+        }
+
+        System.out.println("Highest Grade: " + studentNames[highIndex] + " - " + highest);
+        System.out.println("Lowest Grade: " + studentNames[lowIndex] + " - " + lowest);
+    }
+}
